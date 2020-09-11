@@ -10,17 +10,17 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="157dp"
-        android:layout_marginLeft="157dp"
-        android:layout_marginEnd="167dp"
-        android:layout_marginRight="167dp"
-        android:layout_marginBottom="396dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
         android:onClick="clickFunction"
         android:text="Login"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
     <EditText
         android:id="@+id/editTextPersonName"
@@ -47,11 +47,9 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
-        android:layout_marginBottom="14dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextPersonName" />
